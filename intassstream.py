@@ -12,7 +12,7 @@ image = Image.open(image_path)
 st.image(image, caption="Your Static Image", use_column_width=True)
 
 # Step 1: Set up your APIs and environment variables
-os.environ['GROQ_API_KEY'] = "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"
+os.environ['GROQ_API_KEY'] = ""
 
 # Step 2: Initialize the language model and embeddings
 llm = ChatGroq(model="llama-3.3-70b-versatile")
